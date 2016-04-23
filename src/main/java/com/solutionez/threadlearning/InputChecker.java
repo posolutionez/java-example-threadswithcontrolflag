@@ -33,8 +33,6 @@ public class InputChecker extends Thread{
 				evalInput(sc.nextLine());
 			}catch (Exception e){
 				e.printStackTrace();
-			}finally{
-				sc.close();
 			}
 		}
 		
